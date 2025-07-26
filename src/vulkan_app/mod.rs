@@ -5,5 +5,12 @@ pub use app::VulkanApp;
 
 mod app;
 mod utils;
-mod setup;
 mod vertex;
+
+mod instance;
+mod swapchain;
+mod pipeline;
+mod buffers;
+mod images;
+mod commands;
+mod descriptors;
